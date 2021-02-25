@@ -3,14 +3,39 @@
 .image {
     background: url(assets/images/book.jpg) no-repeat;
     background-size: contain;
+    background-position: center;
 }
 
 @media (min-width: 576px) {
     .text {
         font-size: 12px;
+        color: #565656;
     }
+}
+
+.main-title {
+    color: #565656;
+}
+
+.prices {
+    color: #337481 !important;
+}
+
+.cart-button {
+    color: #fff;
+    background-color: #049dbf;
+    border-color: #049dbf;
+    font-size: x-small;
+}
+
+.md-18 {
+    font-size: 18px;
 }
 
 hr.solid {
     border-top: 3px solid #bbb;
+}
+
+.bg-primary {
+    background-color: #025e73 !important;
 }
