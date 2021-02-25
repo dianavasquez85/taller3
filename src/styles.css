@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+.image {
+    background: url(assets/images/book.jpg) no-repeat;
+    background-size: contain;
+}
+
+@media (min-width: 576px) {
+    .text {
+        font-size: 12px;
+    }
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
