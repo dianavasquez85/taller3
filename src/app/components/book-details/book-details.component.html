@@ -5,8 +5,11 @@
 
 
             <div class="col">
-                <h1 class="my-4">
-                    <span class="fw-bold main-title">Inicio</span>
+                <h1 class="my-4 d-none d-sm-block">
+                    <span class="fw-bold main-title">Título</span>
+                </h1>
+                <h1 class="my-4 d-sm-none">
+                    <span class="fw-bold">Libro de gatos</span>
                 </h1>
                 <div class="container-fluid">
                     <div class="row mb-5">
@@ -38,14 +41,23 @@
                                     </div>
                                     <hr class="solid">
                                     <div class="d-flex justify-content-between">
-                                        <span class="text-info fw-bold prices">
+                                        <span class="text-info fw-bold prices d-none d-sm-block">
                                             Total $50.000,00
                                         </span>
-                                        <button type="button" class="btn cart-button d-flex justify-content-center">
+                                        <h2 class="d-sm-none">
+                                            Total<br>$50.000,00
+                                        </h2>
+                                        <button type="button" class="btn cart-button d-flex align-items-center justify-content-center d-none d-sm-block">
                                             <span class="material-icons md-18">
                                                 add_shopping_cart
                                             </span>
-                                            Añadir al carrito
+                                            <span>Añadir al carrito</span>
+                                        </button>
+                                        <button type="button" class="btn cart-button d-flex align-items-center d-sm-none">
+                                            <span class="material-icons md-18">
+                                                add_shopping_cart
+                                            </span>
+                                            <span>Agregar<br>al carrito</span>
                                         </button>
                                     </div>
                                 </div>
